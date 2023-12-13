@@ -2,8 +2,8 @@ package eclipse.shortkey;
 
 class Calculator {
     int left, right;
-//    
-//    public Calculator(){}
+ 
+    public Calculator(){}
     
     public Calculator(int left, int right) {
     	this.left = left;
