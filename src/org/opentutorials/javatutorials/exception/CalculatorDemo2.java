@@ -14,13 +14,13 @@ class Calculator2{
 			System.out.println("계산 결과는 ");
 			System.out.println(this.left / this.right);
 			System.out.println(" 입니다. ");
-		} catch(Exception e) {
-			System.out.println("\n e.getMessage()" + e.getMessage());
-			System.out.println("\n e.toString()" + e.toString());
-			System.out.println("\n e.printStackTrace()");
-			e.printStackTrace();
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("ArrayIndexOutOfBoundsException");
+		} catch(ArithmeticException e) {
+			System.out.println("ArithmeticException");
+		} finally {
+			System.out.println("DivideEnd");
 		}
-		System.out.println("Divide End");
 	}
 }
 
