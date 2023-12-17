@@ -27,8 +27,9 @@ public class ThrowException {
 			c.run();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-		} catch (IOException e){
+		}catch (IOException e){
 			System.out.println("찾을 수 없는 파일");
+		}
 
 	}
 
